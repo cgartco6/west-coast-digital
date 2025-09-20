@@ -234,4 +234,12 @@ exports.getFallbackEmail = (templateType, data) => {
       
       To ensure uninterrupted service, please renew your subscription before the due date.
       
-      Thank you for being a valued member
+      Thank you for being a valued member of West Coast Digital.
+      
+      Best regards,
+      The West Coast Digital Team
+    `
+  };
+
+  return templates[templateType] || 'Thank you for your business. Please contact us for more information.';
+};
